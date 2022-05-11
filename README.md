@@ -42,3 +42,20 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### Dipto Nath
 
 I am Dipto Nath 
+
+### Code
+
+Function is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+```markdown
+
+function activate_sitewide_plugin() {
+    _deprecated_function( __FUNCTION__, '3.0.0', 'activate_plugin()' );
+    return false; 
+}
+
+```
+
+
+
+

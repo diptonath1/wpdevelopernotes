@@ -16,7 +16,7 @@ Syntax highlighted code block
 ### Header 3
 function activate_sitewide_plugin() {
     _deprecated_function( __FUNCTION__, '3.0.0', 'activate_plugin()' );
-    return false;
+    return false; 
 }
 - Bulleted
 - List

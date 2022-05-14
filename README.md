@@ -73,6 +73,14 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 ```
 
+#### Loading image files during theme bootstrapping
+
+```markdown
+
+<img src="<?php echo get_template_directory_uri();?>/assets/images/thumbs/masonry/gallery/gallery-1-400.jpg" alt="">
+
+```
+
 You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.

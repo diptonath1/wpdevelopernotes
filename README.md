@@ -39,7 +39,7 @@ Text Domain:
 
 ```markdown
 
-function philosophy_theme_setup(){
+function textdomain_theme_setup(){
     load_theme_textdomain("philosophy");
     add_theme_support("title-tags");
     add_theme_support( 'post-thumbnails' );
@@ -51,7 +51,7 @@ function philosophy_theme_setup(){
     ) );
     add_editor_style('/assets/css/editor-style.css');
 }
-add_action("after_setup_theme", "philosophy_theme_setup");
+add_action("after_setup_theme", "textdomain_theme_setup");
 
 ```
 
@@ -59,7 +59,17 @@ add_action("after_setup_theme", "philosophy_theme_setup");
 
 ```markdown
 
-
+function textdomain_theme_enqueue_scripts(){
+    // Enqueue my styles.
+    wp_enqueue_style('main-css', get_template_directory_uri().'/assets/css/main.css',null,'1.0');
+    wp_enqueue_style( 'philosophy-css', get_stylesheet_uri() );
+     
+    // Enqueue my scripts.
+    wp_enqueue_script('modernizr-js', get_template_directory_uri().'/assets/js/modernizr.js',null,'1.0'); 
+    // If dependent on jquery
+    wp_enqueue_script('main-js', get_template_directory_uri().'/assets/js/main.js',array("jquery"),'1.0',true);  
+}
+add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 ```
 

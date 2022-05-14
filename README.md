@@ -24,8 +24,8 @@
 /*
 Theme Name: 
 Theme URI: 
-Author: 
-Author URI: https://wordpress.org/
+Author: Dipto Nath
+Author URI:  https://diptonath.com
 Description: 
 Version: 1.0
 License: GNU General Public License v2 or later

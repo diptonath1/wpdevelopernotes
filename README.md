@@ -6,6 +6,7 @@
 
 - index.php
 - style.css
+- functions.php
 - page.php
 - single.php
 - archive.php
@@ -16,7 +17,25 @@
 - footer.php
 - sidebar.php
 
-#### Basic style.css code
+#### Basic *style.css* code
+
+```markdown
+
+/*
+Theme Name: 
+Theme URI: 
+Author: 
+Author URI: https://wordpress.org/
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+*/
+
+```
+
+#### Basic *functions.php* code
 
 ```markdown
 

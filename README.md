@@ -35,7 +35,7 @@ Text Domain:
 
 ```
 
-#### Basic *functions.php* code
+#### Basic *functions.php* after_setup_theme code
 
 ```markdown
 
@@ -52,6 +52,14 @@ function philosophy_theme_setup(){
     add_editor_style('/assets/css/editor-style.css');
 }
 add_action("after_setup_theme", "philosophy_theme_setup");
+
+```
+
+#### Basic *functions.php* wp_enqueue_script code
+
+```markdown
+
+
 
 ```
 

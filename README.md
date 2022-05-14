@@ -2,7 +2,7 @@
 
 ### Theme Bootstrapping
 
-###### Basic Template Files
+#### Basic Template Files
 
 - index.php
 - style.css
@@ -15,6 +15,24 @@
 - header.php
 - footer.php
 - sidebar.php
+
+#### Basic style.css code
+
+```markdown
+
+/*
+Theme Name: 
+Theme URI: 
+Author: 
+Author URI: https://wordpress.org/
+Description: 
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: 
+*/
+
+```
 
 You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

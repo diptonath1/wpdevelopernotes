@@ -39,17 +39,19 @@ Text Domain:
 
 ```markdown
 
-/*
-Theme Name: 
-Theme URI: 
-Author: 
-Author URI: https://wordpress.org/
-Description: 
-Version: 1.0
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: 
-*/
+function philosophy_theme_setup(){
+    load_theme_textdomain("philosophy");
+    add_theme_support("title-tags");
+    add_theme_support( 'post-thumbnails' );
+    add_theme_support( 'html5', array(
+        'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+    ) );
+    add_theme_support( 'post-formats', array(
+        'image', 'video', 'quote', 'link', 'gallery', 'audio'
+    ) );
+    add_editor_style('/assets/css/editor-style.css');
+}
+add_action("after_setup_theme", "philosophy_theme_setup");
 
 ```
 

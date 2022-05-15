@@ -1,6 +1,5 @@
 ### Wordpress Developer Notes
 
-
 ### Theme Bootstrapping
 
 #### Basic Template Files
@@ -98,7 +97,7 @@ register_nav_menus( array(
 
 ```
 
-Displays a [navigation menu]https://developer.wordpress.org/reference/functions/wp_nav_menu/
+Displays a [navigation menu](https://developer.wordpress.org/reference/functions/wp_nav_menu/)
 
 ```markdown
 

@@ -84,6 +84,21 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 - ***<?php wp_head(); ?>*** loads all style sheets and script on the heads
 - ***<?php wp_footer(); ?>*** loads all style sheets and script on the footer
 
+### Menu
+
+[Register nav menu](https://developer.wordpress.org/reference/functions/register_nav_menus/) using this code with your desired name and id on the ***function.php*** file **after_setup_theme hook**
+
+```markdown
+
+register_nav_menus( array(
+'top-menu' => __('Top Menu','philosophy'),
+) );
+
+```
+
+
+You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+
 
 You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

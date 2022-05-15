@@ -86,12 +86,12 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 ### Menu
 
-[Register nav menu](https://developer.wordpress.org/reference/functions/register_nav_menus/) using this code with your desired name and id on the ***function.php*** file **after_setup_theme hook**
+[Register nav menu](https://developer.wordpress.org/reference/functions/register_nav_menus/) using this code with your desired name and id on the ***function.php*** file **after_setup_theme** hook
 
 ```markdown
 
 register_nav_menus( array(
-'top-menu' => __('Top Menu','philosophy'),
+'menu_id' => __('Menu Name','textdomain'),
 ) );
 
 ```

@@ -1,5 +1,6 @@
 ### Wordpress Developer Notes
 
+
 ### Theme Bootstrapping
 
 #### Basic Template Files
@@ -84,6 +85,7 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 - ***<?php wp_head(); ?>*** loads all style sheets and script on the heads
 - ***<?php wp_footer(); ?>*** loads all style sheets and script on the footer
 
+
 ### Menu
 
 [Register nav menu](https://developer.wordpress.org/reference/functions/register_nav_menus/) using this code with your desired name and id on the ***function.php*** file **after_setup_theme** hook
@@ -92,6 +94,18 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 register_nav_menus( array(
 'menu_id' => __('Menu Name','textdomain'),
+) );
+
+```
+
+Displays a [navigation menu]https://developer.wordpress.org/reference/functions/wp_nav_menu/
+
+```markdown
+
+wp_nav_menu( array(
+    'theme_location' => 'menu_id',
+    'menu_id'        => 'menu_id',
+    'menu_class'     => 'header__nav'
 ) );
 
 ```

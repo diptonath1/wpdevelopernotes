@@ -109,7 +109,7 @@ wp_nav_menu( array(
 
 ```
 
-### All About Post 
+### All About Post  
 
 Display Posts [loop](https://developer.wordpress.org/themes/basics/the-loop/)
 

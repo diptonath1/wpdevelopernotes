@@ -149,6 +149,14 @@ function the_textdomain_pagination(){
 
 ```
 
+Display function on the pagination page
+
+```markdown
+
+<?php the_textdomain_pagination();?>
+
+```
+
 
 You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

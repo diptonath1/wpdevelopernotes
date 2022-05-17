@@ -124,6 +124,31 @@ Display Posts [loop](https://developer.wordpress.org/themes/basics/the-loop/)
 
 ```
 
+### Pagination
+
+**Creating [*Pagination*](https://developer.wordpress.org/themes/functionality/pagination/) using function same as html design**
+
+At first, we need to create a function. Then replace the Wordpress default pagination design class with your HTML markup design class
+
+***Pagination function code***
+
+```markdown
+
+function the_textdomain_pagination(){
+    global $wp_query;
+    $links = paginate_links(array(
+        'current' => max(1,get_query_var('paged')),
+        'total'   => $wp_query->max_num_pages,
+        'type'    => 'list',
+        'mid_size'=> 3
+    ));
+    //Replacing Design
+    $links  = str_replace("page-numbers","pgn__num",$links);
+    echo $links;
+}
+
+```
+
 
 You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 

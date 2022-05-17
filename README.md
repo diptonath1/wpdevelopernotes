@@ -55,7 +55,7 @@ add_action("after_setup_theme", "textdomain_theme_setup");
 
 ```
 
-#### Basic *functions.php* wp_enqueue_script code
+#### Basic `functions.php` wp_enqueue_script code
 
 ```markdown
 
@@ -87,7 +87,7 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 ### Menu
 
-[Register nav menu](https://developer.wordpress.org/reference/functions/register_nav_menus/) using this code with your desired name and id on the ***function.php*** file **after_setup_theme** hook
+[Register nav menu](https://developer.wordpress.org/reference/functions/register_nav_menus/) using this code with your desired name and id on the `function.php` file **after_setup_theme** hook
 
 ```markdown
 
@@ -126,11 +126,11 @@ Display Posts [loop](https://developer.wordpress.org/themes/basics/the-loop/)
 
 ### Pagination
 
-**Creating [*Pagination*](https://developer.wordpress.org/themes/functionality/pagination/) using function same as html design**
+Creating [*Pagination*](https://developer.wordpress.org/themes/functionality/pagination/) using function same as html design
 
 At first, we need to create a function. Then replace the Wordpress default pagination design class with your HTML markup design class
 
-***Pagination function code***
+Pagination function code
 
 ```markdown
 
@@ -156,64 +156,6 @@ Display function on the pagination page
 <?php the_textdomain_pagination();?>
 
 ```
-
-
-You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-function activate_sitewide_plugin() {
-    _deprecated_function( __FUNCTION__, '3.0.0', 'activate_plugin()' );
-    return false; 
-}
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/diptonath/wpdevelopernotes/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration files.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-### Dipto Nath
-
-I am Dipto Nath 
-
-### Code
-
-Function is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-
-function activate_sitewide_plugin() {
-    _deprecated_function( __FUNCTION__, '3.0.0', 'activate_plugin()' );
-    return false; 
-}
-
-```
-
 
 
 

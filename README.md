@@ -109,8 +109,20 @@ wp_nav_menu( array(
 
 ```
 
+### All About Post 
 
-You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+Display Posts [loop](https://developer.wordpress.org/themes/basics/the-loop/)
+
+```markdown
+
+<?php
+    while(have_posts()){
+        the_post();
+            // Display post content
+    }
+?>
+
+```
 
 
 You can use the [editor on GitHub](https://github.com/diptonath/wpdevelopernotes/edit/main/README.md) to maintain and preview the content for your website in Markdown files.

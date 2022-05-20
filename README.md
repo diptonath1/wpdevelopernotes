@@ -157,5 +157,9 @@ Display function on the pagination page
 
 ```
 
+### Comments
 
+### Page Templates
+
+### Page Templates
 

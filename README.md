@@ -161,5 +161,13 @@ Display function on the pagination page
 
 ### Page Templates
 
+[Pages templates](https://developer.wordpress.org/themes/template-files-section/page-template-files/) comment Code
+
+```markdown
+
+<?php /* Template Name: Example Template */ ?>
+
+```
+
 ### Page Templates
 

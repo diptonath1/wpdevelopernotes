@@ -190,3 +190,14 @@ add_action( 'widgets_init', 'mytheme_widgets_init' );
 
 ```
 
+Display sidebars
+
+```markdown
+
+<?php
+  if(is_active_sidebar("mytheme-single-post-widgets")){
+    dynamic_sidebar("mytheme-single-post-widgets");
+  }
+?>
+
+```

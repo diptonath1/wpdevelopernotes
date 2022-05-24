@@ -73,7 +73,10 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 ```
 
-#### Loading image files during theme bootstrapping
+- ***<?php wp_head(); ?>*** loads all style sheets and script on the heads
+- ***<?php wp_footer(); ?>*** loads all style sheets and script on the footer
+
+Loading image files during theme bootstrapping
 
 ```markdown
 
@@ -81,9 +84,13 @@ add_action( 'wp_enqueue_scripts', 'textdomain_theme_enqueue_scripts' );
 
 ```
 
-- ***<?php wp_head(); ?>*** loads all style sheets and script on the heads
-- ***<?php wp_footer(); ?>*** loads all style sheets and script on the footer
+Template file call
 
+```markdown
+
+<?php get_template_part("template-parts/common/navigation");?>
+
+```
 
 ### Menu
 

@@ -110,6 +110,7 @@ wp_nav_menu( array(
 ```
 
 You can check [this 6 number answer](https://stackoverflow.com/questions/26180688/how-to-add-class-to-link-in-wp-nav-menu) for adding **li class** and **a class**
+
 Also, You can check [this 5 number answer](https://stackoverflow.com/questions/26180688/how-to-add-class-to-link-in-wp-nav-menu) for adding **active class**
 
 ### All About Post  

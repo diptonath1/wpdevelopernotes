@@ -109,6 +109,9 @@ wp_nav_menu( array(
 
 ```
 
+You can check [this 6 number answer](https://stackoverflow.com/questions/26180688/how-to-add-class-to-link-in-wp-nav-menu) for adding **li class** and **a class**
+
+
 ### All About Post  
 
 Display Posts [loop](https://developer.wordpress.org/themes/basics/the-loop/)

@@ -216,5 +216,4 @@ Display sidebars
 
 ```
 
-### Sidebar Registered
 

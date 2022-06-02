@@ -218,3 +218,5 @@ Display sidebars
 
 ### Sidebar Registered
 
+Hello dipto
+
